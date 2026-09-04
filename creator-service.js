@@ -4,7 +4,7 @@
  */
 const CreatorService = (function() {
   async function saveContent(data) {
-    const url = localStorage.getItem('BALTAANAY_SHEETS_URL');
+    const url = localStorage.getItem('https://script.google.com/macros/s/AKfycbzw5SUx9LPOaNkwZE_VILXY25wjTMKvZccMHUYALI-DbfygK4najH4EjYzQTPvEHUU/exec');
     if (url) {
       try {
         await fetch(url, {
